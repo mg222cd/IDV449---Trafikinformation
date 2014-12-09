@@ -1,3 +1,4 @@
+/*
 $(document).ready(function() {
   alert("I am an alert box!");
   //Map.getMap;
@@ -9,7 +10,6 @@ getMap = function(){
 	alert("I am an alert box!");
 };
 
-/*
 function initialize () {
     var mapOptions = {
         center: new google.maps.LatLng(59.999999, 14.9999999),
@@ -23,6 +23,7 @@ function initialize () {
     google.maps.event.addListener(map, 'click', function(event) {
         placeMarker(event.latLng);
     });
-}*/
+}
 
 }; //Map-object
+*/
