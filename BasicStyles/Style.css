@@ -22,7 +22,7 @@ body{
 * HEADER
 */
 header{
-	width: 80%;
+	width: 100%;
 	margin: auto;
 	height: 10%;
 	color: #DE979F;
@@ -31,78 +31,26 @@ header h1{
 	font-weight: bolder;
 	margin-bottom: 0px;
 }
-#timestring{
-	margin-top: 0px;
-	color: #000000;
-	font-size: 50%;
-}
 /*
-* USER MENU
+* MENU
 */
-#usermenu{
+.menu{
 	margin-top: 0px;
 	background-color: #fff5f9;
 	text-align: right;
 }
-#logoutlink{
-	font-weight: bold;
-	margin-left: 2%;
-}
-/*
-* CONTENT
-*/
-#headertext{
-	font-size: 200%;
-	color: #775C67;
-}
-#content{
-	background-color: #FFFFFF;
-	width: 80%;
-	margin: auto;
-	margin-top: 0%;
-	margin-bottom: 5%;
-}
-
-#link{
-	margin-top: 30px;
-}
-.btn{ 
-	width:100%; 
-}
-.image_startpage{
-	padding-top: 50px;
-}
-#workoutTable{
-	margin-right: -15px;
-	margin-left: -15px;
-	margin-top: 5%;
-}
-.addWorkout{
-	margin-left: -15px;	
-}
-.error{
-	font-weight: bold;
-	color:#ff0000;
-}
-.succeed{
-	font-weight: bold;
-	color: #62AA65;
-}
-
 
 /*
 * GOOGLE MAPS
 */
 
 html, body, #map-canvas {
-        height: 100%;
-        margin: 0px;
-        padding: 0px
+	height: 100%;
+	margin: 0px;
+	padding: 0px
 }
 
 #container {
-    width: 1100px;
-    height: 1010px;
     margin: auto;
     background-color: #FFF;
     -moz-box-shadow: 0 0 5px 10px rgba(25,25,25,0.1);

@@ -5,7 +5,6 @@ private $maxNumberOfMessages = 100;
 private $file = 'file.json';
 
 	public function handleCache(){
-		
 		//säkerhetskoll ifall filen skulle vara tom
 		$data = file_get_contents($this->file);
 		if (!empty($data)) {
