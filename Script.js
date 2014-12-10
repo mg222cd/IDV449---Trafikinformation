@@ -8,7 +8,7 @@ var Map = function(latitude, longitude) {
     this.markers = [];
     var mapOptions = {
         center: new google.maps.LatLng (this.latitude, this.longitude),
-        zoom: 4
+        zoom: 5
     }
     this.map = new google.maps.Map (document.getElementById('map-canvas'), mapOptions);
 };
@@ -19,6 +19,7 @@ Map.prototype.setMarker = function(location) {
     var marker = new google.maps.Marker ({
         position: latLng,
         map: this.map,
+        draggable: true
     });
     this.markers.push(marker);
     google.maps.event.addListener(marker, 'click', function () {
@@ -55,23 +56,8 @@ Map.prototype.getInfoWindow = function(location, marker) {
 }
 
 Map.prototype.deleteMarkers = function() {
-    for (var i = 0; i < markers.length; i++) {
-        markers[i].setMap(null);
+    for (var i = 0; i < this.markers.length; i++) {
+        this.markers[i].setMap(null);
     }
     this.markers = [];
 }
-
-/*
-var map;
-function initialize () {
-    var mapOptions = {
-        center: new google.maps.LatLng(59.999999, 14.9999999),
-        zoom: 2
-    };
-    
-    map = new google.maps.Map(document.getElementById('map-canvas'),
-        mapOptions);
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-*/

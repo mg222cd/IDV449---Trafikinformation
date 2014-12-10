@@ -2,6 +2,7 @@
 
 var TrafficInfo = {
 	map : undefined,
+	categoryType : 4,
 	locations : [],
 	allCategories : [],
 	roadTraffic : [],
@@ -11,25 +12,33 @@ var TrafficInfo = {
 
 	init: function() {
 		TrafficInfo.map = new Map(62.00, 15.00);
-		$("#categoryType").on('click', 'a', function() {
-			TrafficInfo.map.deleteMarkers();
-		});
+		TrafficInfo.categoryBinding();
 		TrafficInfo.getAllMessages();
 	},
 
+	categoryBinding: function() {
+		var that = this;
+		$("#categoryType").on("click", "a", function() {
+			TrafficInfo.map.deleteMarkers();
+			that.categoryType = parseInt($(this).data("category-type"));
+			that.renderCategoryTypeToList();
+		});
+	},
+
 	getAllMessages: function() {
-		$.ajax({
-			type: 'GET',
-			url: 'AjaxAction.php',
-			dataType: 'json',
-			data: {action: 'handleCache'}
-		}).done(function (data) {
-				var messages = data['messages'];
-				console.log(messages);
-				TrafficInfo.renderMessages(messages);
-			}).fail(function (jqXHR, textStatus) {
-				console.log("Läsfel, status: " + textStatus);
-			});
+		$(document).ready(function () {
+			$.ajax({
+				type: 'GET',
+				url: 'AjaxAction.php',
+				dataType: 'json',
+				data: {action: 'handleCache'}
+			}).done(function (data) {
+					var messages = data['messages'];
+					TrafficInfo.renderMessages(messages);
+				}).fail(function (jqXHR, textStatus) {
+					console.log("Läsfel, status: " + textStatus);
+				});
+		});
 	},
 
 	renderMessages: function(messages) {
@@ -38,6 +47,19 @@ var TrafficInfo = {
 			location.marker = TrafficInfo.map.setMarker(location);
 			this.locations.push(location);
 		}
+	},
+
+	renderCategoryTypeToList : function() {
+		var that = this;
+		var trafficListing = "";
+		for(var i = 0; i < this.locations.length; i++) {
+			var locationByCategory = this.locations[i];			
+			if(this.categoryType === 4 || this.categoryType === locationByCategory.category) {
+				trafficListing += "<li>" +  locationByCategory.title + "</li>";
+				TrafficInfo.map.setMarker(locationByCategory);
+			}
+		}
+		$('#trafficListing').html(trafficListing);
 	}
 
 }

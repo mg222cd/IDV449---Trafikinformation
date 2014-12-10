@@ -17,12 +17,13 @@
 </head>
 <body>
 <div class='container'>
+<div class='row'>
   <header>
     <h1>TRAFIKSTÖRNINGAR</h1>
-    <p class='tight'>WebbteknikII - Laboration 3 - Mashup<p>
+    <p class='tight'>Webbteknik II - Laboration 3 - Mashup<p>
   </header>
   <!-- Menu -->
-  <div class='col-xs-12 col-sm-4 menu'>
+  <div class='col-xs-12 col-sm-3 menu'>
     <div class='pull-top panel panel-info' >
         <h3>Trafikrapporter</h3></div>
         <div class="list-group" id="categoryType">
@@ -34,11 +35,11 @@
         </div>
         <div id="trafficListing" class="panel-body"></div>
     </div>
-  </div>
   <!-- Map -->
-  <div class="col-xs-12 col-sm-8 map">
+  <div class='col-xs-12 col-sm-9'>
     <div id='map-canvas'></div>
   </div>
+</div>
 </div>
 <!-- Application scripts -->
 <script src='//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
