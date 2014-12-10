@@ -13,15 +13,19 @@ private $file = 'file.json';
 			//kontroll om ny hämtning till fil ska göras
 			$dataDecoded = json_decode($data);
 			$scrapedTime = $dataDecoded->timestamp;
-			$cacheExpire = date('Y/m/d H:i:s', strtotime('- 5 minutes'));
+			$cacheExpire = date('Y/m/d H:i:s', strtotime('- 10 minutes'));
 			if ($scrapedTime < $cacheExpire) {
 				//cachen är äldre än 10 minuter - gör ny hämtning
-				$this->getTrafficMessages();
+				return $this->getTrafficMessages();
+			}
+			else{
+				//använd cachen, returnera filen
+				return $data;
 			}
 		//filen är tom, gör en ny hämtning	
 		}
 		else{
-			$this->getTrafficMessages();
+			return $this->getTrafficMessages();
 		}
 
 	}
@@ -48,6 +52,7 @@ private $file = 'file.json';
 		$json = json_encode($json, JSON_PRETTY_PRINT);
 		//lägg i fil
 		file_put_contents($this->file, $json);
+		return $json;
 	}
 
 	//curl

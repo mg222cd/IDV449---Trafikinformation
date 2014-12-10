@@ -19,7 +19,7 @@
 <div class='container'>
   <header>
     <h1>TRAFIKSTÖRNINGAR</h1>
-    <p class='tight'>WebbteknikII - Laboration 3 - Mashups<p>
+    <p class='tight'>WebbteknikII - Laboration 3 - Mashup<p>
   </header>
   <!-- Menu -->
   <div class='col-xs-12 col-sm-4 menu'>

@@ -1,13 +1,12 @@
 <?php
 require_once('Cache.php');
 
-$cache = new Cache();
+$cache = new CacheController();
 
 	if(isset($_GET['action'])) {
 		switch ($_GET['action']) {
 			case 'handleCache':
-				$cache->handleCache();
+				echo $cache->handleCache();
 				break;
 		}
 	}
-
