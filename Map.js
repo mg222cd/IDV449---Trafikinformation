@@ -24,7 +24,6 @@ var TrafficInfo = {
 			dataType: 'json',
 			data: {action: 'handleCache'}
 		}).done(function (data) {
-				//data = JSON.parse(data);
 				var messages = data['messages'];
 				console.log(messages);
 				TrafficInfo.renderMessages(messages);

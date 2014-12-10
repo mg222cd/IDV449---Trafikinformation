@@ -27,14 +27,26 @@ Map.prototype.setMarker = function(location) {
 };
 
 Map.prototype.getInfoWindow = function(location, marker) {
+    var date = location.createddate;
+    var dateSplitted = date.split('+');
+    var firstHalf = dateSplitted[0];
+    var secHalf = firstHalf.split('(');
+    var unix = secHalf[1];
+    var newDate = new Date();
+    newDate.setTime(unix);
+    var category = "";
+    if (location.category == 0) { category = "Vägtrafik"};
+    if (location.category == 1) { category = "Kollektivtrafik"};
+    if (location.category == 2) { category = "Planerad störning"};
+    if (location.category == 3) { category = "Övrigt"};
     if (this.infoWindow !== undefined) {
         this.infoWindow.close();
     }
     var contentString = "<div class='infoWinContent'>" +
         "<h3>" + location.title + "</h3>" +
-        "<p>Skapad: " + location.createddate + "</p>" +
-        "<p>Trafikinformation: " + location.description + "</p>" +
-        "<p>Plats: " + location.exactlocation + "</p>" +
+        "<p>Datum: " + newDate + "</p>" +
+        "<p>Beskrivning: " + location.description + "</p>" +
+        "<p>Kategori: " + category + "</p>" +
         "</div";
     this.infoWindow = new google.maps.InfoWindow({
         content: contentString,
