@@ -4,6 +4,8 @@ class CacheController{
 private $maxNumberOfMessages = 100;
 private $file = 'file.json';
 
+
+
 	public function handleCache(){
 		//säkerhetskoll ifall filen skulle vara tom
 		$data = file_get_contents($this->file);
@@ -11,7 +13,7 @@ private $file = 'file.json';
 			//kontroll om ny hämtning till fil ska göras
 			$dataDecoded = json_decode($data);
 			$scrapedTime = $dataDecoded->timestamp;
-			$cacheExpire = date('Y/m/d H:i:s', strtotime('- 10 minutes'));
+			$cacheExpire = date('Y/m/d H:i:s', strtotime('- 5 minutes'));
 			if ($scrapedTime < $cacheExpire) {
 				//cachen är äldre än 10 minuter - gör ny hämtning
 				$this->getTrafficMessages();

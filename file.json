@@ -1,46 +1,70 @@
 {
-    "timestamp": "2014\/12\/10 11:47:48",
+    "timestamp": "2014\/12\/10 12:54:17",
     "messages": [
         {
-            "id": 1308138,
-            "priority": 4,
-            "createddate": "\/Date(1418208018607+0100)\/",
-            "title": "Norrk\u00f6ping",
-            "exactlocation": "Hamngatan\/Drottninggatan",
-            "description": "P\u00e5 grund av en kollision p\u00e5 Drottninggatan \u00e4r det just nu stopp f\u00f6r sp\u00e5rvagnstrafiken linje 2 och 3 vid h\u00e5llplats R\u00e5dhuset mot Vidablick och Fridvalla. Bussar \u00e4r p\u00e5 v\u00e4g ut f\u00f6r att ers\u00e4tta. ",
-            "latitude": 58.5931990047,
-            "longitude": 16.1858033688,
-            "category": 1,
-            "subcategory": "Sp\u00e5rvagn"
+            "id": 1308220,
+            "priority": 3,
+            "createddate": "\/Date(1418211918190+0100)\/",
+            "title": "Lv620 Vindeln-Botsmark",
+            "exactlocation": "",
+            "description": "Stillast\u00e5ende lastbil. ",
+            "latitude": 64.254694118,
+            "longitude": 19.9419675041,
+            "category": 0,
+            "subcategory": "Trafikst\u00f6rning"
         },
         {
-            "id": 1308166,
+            "id": 1308216,
             "priority": 3,
-            "createddate": "\/Date(1418207746370+0100)\/",
-            "title": "Alvesta-Kalmar",
-            "exactlocation": "",
-            "description": "F\u00f6rseningar uppst\u00e5r f\u00f6r t\u00e5gen p\u00e5 str\u00e4ckan.  Orsaken \u00e4r ett t\u00e5g som st\u00e5r stilla med tekniska problem",
-            "latitude": 56.5201829864,
-            "longitude": 14.4716806223,
-            "category": 1,
-            "subcategory": "T\u00e5g"
+            "createddate": "\/Date(1418211605883+0100)\/",
+            "title": "Rv 26 Gislaved-Sm\u00e5landsstenar",
+            "exactlocation": "Ca 2 km s\u00f6der om Gislaved",
+            "description": "Omlastning och b\u00e4rgning efter lastbilolycka tidigare idag. Mycket begr\u00e4nsad framkomliget. V\u00e4lj om m\u00f6jligt annan v\u00e4g.",
+            "latitude": 57.2466773987,
+            "longitude": 13.4628047943,
+            "category": 0,
+            "subcategory": "Trafikst\u00f6rning"
         },
         {
-            "id": 1308166,
+            "id": 1308206,
             "priority": 3,
-            "createddate": "\/Date(1418207746370+0100)\/",
-            "title": "Alvesta-Kalmar",
+            "createddate": "\/Date(1418210821943+0100)\/",
+            "title": "Lv 137 \u00d6landsbron",
             "exactlocation": "",
-            "description": "F\u00f6rseningar uppst\u00e5r f\u00f6r t\u00e5gen p\u00e5 str\u00e4ckan.  Orsaken \u00e4r ett t\u00e5g som st\u00e5r stilla med tekniska problem",
-            "latitude": 56.5201829864,
-            "longitude": 14.4716806223,
-            "category": 1,
-            "subcategory": "T\u00e5g"
+            "description": "Bron \u00e4r nu st\u00e4ngd f\u00f6r vindk\u00e4nsliga fordon. Bara personbilar kan passera.",
+            "latitude": 56.6732788086,
+            "longitude": 16.4249458313,
+            "category": 0,
+            "subcategory": "Trafikst\u00f6rning"
+        },
+        {
+            "id": 1308203,
+            "priority": 3,
+            "createddate": "\/Date(1418210656210+0100)\/",
+            "title": "Lv514 Vemdalen-Remmet",
+            "exactlocation": "Strax s\u00f6der om Vem\u00e5n. ",
+            "description": "Renar p\u00e5 v\u00e4gen.",
+            "latitude": 62.2979355357,
+            "longitude": 14.081145899,
+            "category": 0,
+            "subcategory": "Trafikst\u00f6rning"
+        },
+        {
+            "id": 1308197,
+            "priority": 3,
+            "createddate": "\/Date(1418210224820+0100)\/",
+            "title": "Rv40 B\u00e5rhultsmotet(74)",
+            "exactlocation": "",
+            "description": "En lastbil som tappat hjulet, st\u00e5r p\u00e5 h\u00f6ger sida i riktning mot G\u00f6teborg.",
+            "latitude": 57.6836512135,
+            "longitude": 12.1752903969,
+            "category": 0,
+            "subcategory": "Trafikst\u00f6rning"
         },
         {
             "id": 1308158,
             "priority": 3,
-            "createddate": "\/Date(1418207659820+0100)\/",
+            "createddate": "\/Date(1418210008903+0100)\/",
             "title": "E14 Tr\u00e5ngsviken-M\u00f6rsil",
             "exactlocation": "Strax f\u00f6re Mattmar, mot \u00c5re",
             "description": "Bilbrand.",
@@ -48,6 +72,102 @@
             "longitude": 13.9050004824,
             "category": 0,
             "subcategory": "Trafikolycka"
+        },
+        {
+            "id": 1308189,
+            "priority": 3,
+            "createddate": "\/Date(1418209979123+0100)\/",
+            "title": "E14 Mattmar-J\u00e4rpen",
+            "exactlocation": "Vid M\u00f6rsil",
+            "description": "",
+            "latitude": 63.3108737578,
+            "longitude": 13.6853517938,
+            "category": 0,
+            "subcategory": "Trafikolycka"
+        },
+        {
+            "id": 1308176,
+            "priority": 4,
+            "createddate": "\/Date(1418209776383+0100)\/",
+            "title": "Karlskrona kommun",
+            "exactlocation": "F\u00e5gelmara, Kristianopel och Torhamn",
+            "description": "Just nu ca 300 hush\u00e5ll utan str\u00f6m. Ingen prognos.",
+            "latitude": 56.1975214004,
+            "longitude": 15.65331249,
+            "category": 3,
+            "subcategory": "El"
+        },
+        {
+            "id": 1307727,
+            "priority": 3,
+            "createddate": "\/Date(1418209599820+0100)\/",
+            "title": "Sjuh\u00e4radsbygden",
+            "exactlocation": "",
+            "description": "SMHI klass 1-varning. Sn\u00f6fall som kan ge cirka fem centimeter sn\u00f6 eller bl\u00f6tsn\u00f6. ",
+            "latitude": 57.6864235974,
+            "longitude": 12.7777525039,
+            "category": 3,
+            "subcategory": "\u00d6vrigt"
+        },
+        {
+            "id": 1307742,
+            "priority": 3,
+            "createddate": "\/Date(1418209491930+0100)\/",
+            "title": "E20 Malm\u00f6\u2013K\u00f6penhamn",
+            "exactlocation": "\u00d6resundsbron",
+            "description": "Vindk\u00e4nsliga fordon rekommenderas inte att k\u00f6ra \u00f6ver bron. Hastigheten s\u00e4nkt till 50km\/h pga h\u00e5rda vindar.",
+            "latitude": 55.5656612048,
+            "longitude": 12.8888023005,
+            "category": 0,
+            "subcategory": "Trafikst\u00f6rning"
+        },
+        {
+            "id": 1308184,
+            "priority": 3,
+            "createddate": "\/Date(1418209483370+0100)\/",
+            "title": "E4 J\u00f6nk\u00f6ping",
+            "exactlocation": "R\u00e5sl\u00e4tt och s\u00f6derut",
+            "description": "Sops\u00e4ckar p\u00e5 v\u00e4gen. ",
+            "latitude": 57.7536506653,
+            "longitude": 14.1572227478,
+            "category": 0,
+            "subcategory": "Trafikst\u00f6rning"
+        },
+        {
+            "id": 1307859,
+            "priority": 3,
+            "createddate": "\/Date(1418208659370+0100)\/",
+            "title": "Lv 975  Arn\u00f6leden, i b\u00e5da riktningar.",
+            "exactlocation": "",
+            "description": "Tung trafik kan inte \u00e5ka med f\u00e4rjan p\u00e5 grund av h\u00e5rd vind.",
+            "latitude": 59.4998512268,
+            "longitude": 17.1460113525,
+            "category": 1,
+            "subcategory": "F\u00e4rja"
+        },
+        {
+            "id": 1308166,
+            "priority": 3,
+            "createddate": "\/Date(1418207746370+0100)\/",
+            "title": "Alvesta-Kalmar",
+            "exactlocation": "",
+            "description": "F\u00f6rseningar uppst\u00e5r f\u00f6r t\u00e5gen p\u00e5 str\u00e4ckan.  Orsaken \u00e4r ett t\u00e5g som st\u00e5r stilla med tekniska problem",
+            "latitude": 56.5201829864,
+            "longitude": 14.4716806223,
+            "category": 1,
+            "subcategory": "T\u00e5g"
+        },
+        {
+            "id": 1308166,
+            "priority": 3,
+            "createddate": "\/Date(1418207746370+0100)\/",
+            "title": "Alvesta-Kalmar",
+            "exactlocation": "",
+            "description": "F\u00f6rseningar uppst\u00e5r f\u00f6r t\u00e5gen p\u00e5 str\u00e4ckan.  Orsaken \u00e4r ett t\u00e5g som st\u00e5r stilla med tekniska problem",
+            "latitude": 56.5201829864,
+            "longitude": 14.4716806223,
+            "category": 1,
+            "subcategory": "T\u00e5g"
         },
         {
             "id": 1304204,
@@ -132,30 +252,6 @@
             "longitude": 18.94519,
             "category": 0,
             "subcategory": "Halkvarning"
-        },
-        {
-            "id": 1308013,
-            "priority": 3,
-            "createddate": "\/Date(1418206183443+0100)\/",
-            "title": "Lv 1066 H\u00f6gland-Faresta",
-            "exactlocation": "",
-            "description": "Flera bilar har fastnat i en backe. ",
-            "latitude": 63.330696106,
-            "longitude": 18.7300033569,
-            "category": 0,
-            "subcategory": "Trafikst\u00f6rning"
-        },
-        {
-            "id": 1308140,
-            "priority": 3,
-            "createddate": "\/Date(1418206174320+0100)\/",
-            "title": "Rv 92 Bjurholm-V\u00e4nn\u00e4s",
-            "exactlocation": "Penglund. ",
-            "description": "B\u00e4rgningsarbete. ",
-            "latitude": 63.9077072144,
-            "longitude": 19.6696681976,
-            "category": 0,
-            "subcategory": "Trafikst\u00f6rning"
         },
         {
             "id": 1306339,
@@ -290,18 +386,6 @@
             "subcategory": "V\u00e4der"
         },
         {
-            "id": 1306500,
-            "priority": 3,
-            "createddate": "\/Date(1418204275460+0100)\/",
-            "title": "Roma",
-            "exactlocation": "Romabadet",
-            "description": "Badet \u00e4r \u00e5ter \u00f6ppet med ordinarie \u00f6ppettider.",
-            "latitude": 57.5115322447,
-            "longitude": 18.4486505107,
-            "category": 3,
-            "subcategory": "\u00d6vrigt"
-        },
-        {
             "id": 1307449,
             "priority": 3,
             "createddate": "\/Date(1418204206153+0100)\/",
@@ -350,66 +434,6 @@
             "subcategory": "V\u00e4garbete"
         },
         {
-            "id": 1307188,
-            "priority": 3,
-            "createddate": "\/Date(1418202647633+0100)\/",
-            "title": "S\u00f6dra Lapplandsfj\u00e4llen",
-            "exactlocation": "",
-            "description": "SMHI varning klass 1: Natt till onsdag, fr\u00e4mst p\u00e5 kalfj\u00e4llet, h\u00e5rd sydv\u00e4stlig vind ca 15 m\/s i kombination med sn\u00f6fall. ",
-            "latitude": 65.7279686883,
-            "longitude": 15.2726314561,
-            "category": 3,
-            "subcategory": "V\u00e4der"
-        },
-        {
-            "id": 1307904,
-            "priority": 3,
-            "createddate": "\/Date(1418202627633+0100)\/",
-            "title": "E4 Birsta",
-            "exactlocation": "Avfarten till Birsta S\u00f6dra ",
-            "description": "Avst\u00e4ngd tom ca 10:00 pga r\u00e4ckesarbete. ",
-            "latitude": 62.4416732788,
-            "longitude": 17.3368148804,
-            "category": 0,
-            "subcategory": "V\u00e4garbete"
-        },
-        {
-            "id": 1307727,
-            "priority": 3,
-            "createddate": "\/Date(1418202304477+0100)\/",
-            "title": "Sjuh\u00e4radsbygden",
-            "exactlocation": "",
-            "description": "SMHI klass 1-varning. Sn\u00f6fall som kan ge cirka fem centimeter sn\u00f6 eller bl\u00f6tsn\u00f6. ",
-            "latitude": 57.6864235974,
-            "longitude": 12.7777525039,
-            "category": 3,
-            "subcategory": "\u00d6vrigt"
-        },
-        {
-            "id": 1307859,
-            "priority": 3,
-            "createddate": "\/Date(1418202261503+0100)\/",
-            "title": "Lv 975  Arn\u00f6leden, i b\u00e5da riktningar.",
-            "exactlocation": "",
-            "description": "Tung trafik kan inte \u00e5ka med f\u00e4rjan p\u00e5 grund av h\u00e5rd vind.",
-            "latitude": 59.4998512268,
-            "longitude": 17.1460113525,
-            "category": 1,
-            "subcategory": "F\u00e4rja"
-        },
-        {
-            "id": 1307899,
-            "priority": 3,
-            "createddate": "\/Date(1418202208183+0100)\/",
-            "title": "G\u00e4vle-Borl\u00e4nge",
-            "exactlocation": "",
-            "description": "F\u00f6rseningar i t\u00e5gtrafiken kan f\u00f6rekomma under morgonen.",
-            "latitude": 60.6079974247,
-            "longitude": 16.6339094883,
-            "category": 1,
-            "subcategory": "T\u00e5g"
-        },
-        {
             "id": 1307877,
             "priority": 3,
             "createddate": "\/Date(1418197548213+0100)\/",
@@ -422,18 +446,6 @@
             "subcategory": "V\u00e4garbete"
         },
         {
-            "id": 1304855,
-            "priority": 4,
-            "createddate": "\/Date(1418201548073+0100)\/",
-            "title": "Bor\u00e5s",
-            "exactlocation": "Stuartsgatan",
-            "description": "F\u00f6rl\u00e4ngd avst\u00e4ngning fram till 10\/12 pga reparation efter vattenl\u00e4cka. ",
-            "latitude": 57.7283180156,
-            "longitude": 12.9234002743,
-            "category": 0,
-            "subcategory": "Trafikst\u00f6rning"
-        },
-        {
             "id": 1308037,
             "priority": 3,
             "createddate": "\/Date(1418201421683+0100)\/",
@@ -456,30 +468,6 @@
             "longitude": 13.7171583176,
             "category": 1,
             "subcategory": "F\u00e4rja"
-        },
-        {
-            "id": 1307942,
-            "priority": 3,
-            "createddate": "\/Date(1418200419160+0100)\/",
-            "title": "Lv832 Vitberget",
-            "exactlocation": "",
-            "description": "",
-            "latitude": 62.9185826645,
-            "longitude": 18.0997371946,
-            "category": 0,
-            "subcategory": "Trafikolycka"
-        },
-        {
-            "id": 1307742,
-            "priority": 3,
-            "createddate": "\/Date(1418199729943+0100)\/",
-            "title": "E20 Malm\u00f6\u2013K\u00f6penhamn",
-            "exactlocation": "\u00d6resundsbron",
-            "description": "Vindk\u00e4nsliga fordon rekommenderas inte att k\u00f6ra \u00f6ver bron. Hastigheten s\u00e4nkt till 50km\/h pga h\u00e5rda vindar.",
-            "latitude": 55.5656612048,
-            "longitude": 12.8888023005,
-            "category": 0,
-            "subcategory": "Trafikst\u00f6rning"
         },
         {
             "id": 1307979,
@@ -566,18 +554,6 @@
             "subcategory": "V\u00e4garbete"
         },
         {
-            "id": 1307903,
-            "priority": 3,
-            "createddate": "\/Date(1418195275117+0100)\/",
-            "title": "Gammlestaden",
-            "exactlocation": "Artillerigatan\/Treriksgatan.",
-            "description": "Sl\u00e4ckta signaler korsningen f\u00f6r arbete.",
-            "latitude": 57.7294845581,
-            "longitude": 12.0144472122,
-            "category": 0,
-            "subcategory": "V\u00e4garbete"
-        },
-        {
             "id": 1299425,
             "priority": 3,
             "createddate": "\/Date(1418194345680+0100)\/",
@@ -600,18 +576,6 @@
             "longitude": 12.0066719055,
             "category": 0,
             "subcategory": "V\u00e4garbete"
-        },
-        {
-            "id": 1307787,
-            "priority": 3,
-            "createddate": "\/Date(1418191441037+0100)\/",
-            "title": "V\u00e4nn\u00e4s",
-            "exactlocation": "",
-            "description": "V\u00e4nn\u00e4s kommun. F\u00f6rsenad skoltrafik pga halka. ",
-            "latitude": 63.908651684,
-            "longitude": 19.7453709288,
-            "category": 0,
-            "subcategory": "Trafikst\u00f6rning"
         },
         {
             "id": 1307784,
@@ -852,18 +816,6 @@
             "longitude": 17.6705417633,
             "category": 0,
             "subcategory": "V\u00e4garbete"
-        },
-        {
-            "id": 1307192,
-            "priority": 3,
-            "createddate": "\/Date(1418114571490+0100)\/",
-            "title": "Norra Lapplandsfj\u00e4llen",
-            "exactlocation": "",
-            "description": "SMHI Varning klass 1: Natt till onsdag, fr\u00e4mst p\u00e5 kalfj\u00e4llet, h\u00e5rd eller mycket h\u00e5rd sydv\u00e4stlig vind 15-20 m\/s i kombination med sn\u00f6fall.",
-            "latitude": 68.4020271568,
-            "longitude": 18.4250944475,
-            "category": 3,
-            "subcategory": "V\u00e4der"
         },
         {
             "id": 1296228,
@@ -1198,6 +1150,54 @@
             "description": "R\u00e4ckesreparation.",
             "latitude": 59.8505859375,
             "longitude": 15.8428821564,
+            "category": 0,
+            "subcategory": "V\u00e4garbete"
+        },
+        {
+            "id": 1302736,
+            "priority": 5,
+            "createddate": "\/Date(1417693443667+0100)\/",
+            "title": "Lv 363 R\u00f6d\u00e5n\u00e4s-Vindeln",
+            "exactlocation": "",
+            "description": "Begr\u00e4nsad framkomlighet och tillf\u00e4lligt nedsatt hastighet.",
+            "latitude": 64.1586608887,
+            "longitude": 19.8356742859,
+            "category": 0,
+            "subcategory": "V\u00e4garbete"
+        },
+        {
+            "id": 1302963,
+            "priority": 3,
+            "createddate": "\/Date(1417668939750+0100)\/",
+            "title": "Lv 204 Svart\u00e5 Herrg\u00e5rd - Mullhyttan b\u00e5da riktningarna ",
+            "exactlocation": "",
+            "description": "Arbete med v\u00e4gtrummor, ett k\u00f6rf\u00e4lt avst\u00e4ngt.",
+            "latitude": 59.1296005249,
+            "longitude": 14.6235942841,
+            "category": 0,
+            "subcategory": "V\u00e4garbete"
+        },
+        {
+            "id": 1286816,
+            "priority": 3,
+            "createddate": "\/Date(1417602621980+0100)\/",
+            "title": "E22 Kristianstad\u2013Tollarp",
+            "exactlocation": "Vid N\u00f6bbel\u00f6v i b\u00e5da riktningar",
+            "description": "Trafiken regleras med vakt och lots. ",
+            "latitude": 55.9665641785,
+            "longitude": 14.0731906891,
+            "category": 0,
+            "subcategory": "V\u00e4garbete"
+        },
+        {
+            "id": 1303358,
+            "priority": 3,
+            "createddate": "\/Date(1417590603657+0100)\/",
+            "title": "Uppsala",
+            "exactlocation": "Vattholmav\u00e4gen",
+            "description": "R\u00e5byv\u00e4gen och Gl:a Uppsalagatan. VA-arbeten. Ber\u00f6r b\u00e5de cyklister, fotg\u00e4ngare och biltrafik",
+            "latitude": 59.8661792419,
+            "longitude": 17.6415401914,
             "category": 0,
             "subcategory": "V\u00e4garbete"
         }
