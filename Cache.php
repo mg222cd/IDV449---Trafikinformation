@@ -13,7 +13,7 @@ private $file = 'file.json';
 			//kontroll om ny hämtning till fil ska göras
 			$dataDecoded = json_decode($data);
 			$scrapedTime = $dataDecoded->timestamp;
-			$cacheExpire = date('Y/m/d H:i:s', strtotime('- 100 minutes'));
+			$cacheExpire = date('Y/m/d H:i:s', strtotime('- 10 minutes'));
 			if ($scrapedTime < $cacheExpire) {
 				//cachen är äldre än 10 minuter - gör ny hämtning
 				return $this->getTrafficMessages();

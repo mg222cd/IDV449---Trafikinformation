@@ -21,16 +21,15 @@ var TrafficInfo = {
 		var that = this;
 		$("#categoryType").on("click", "a", function() {
 			TrafficInfo.map.deleteMarkers();
-			that.categoryType = parseInt($(this).data("category-type"));
+			that.categoryType = parseInt($(this).data('category-type'));
 			that.renderCategoryTypeToList();
 		});
 	},
 
 	messageBinding: function() {
-		var that = this;
 		$("#trafficListing").on("click", "li", function(){
-			var msgId = parseInt($(this).data('message-id'));
-   			google.maps.event.trigger(that.locations[msgId].marker, 'click');
+			var msgIndex = parseInt($(this).data('message-id'));
+			google.maps.event.trigger(TrafficInfo.map.markers[msgIndex], 'click');
 	  	});
 	},
 
@@ -62,14 +61,16 @@ var TrafficInfo = {
 		var that = this;
 		var trafficListing = "";
 		for(var i = 0; i < this.locations.length; i++) {
-			var locationByCategory = this.locations[i];			
+			var locationByCategory = this.locations[i];		
 			if(this.categoryType === 4 || this.categoryType === locationByCategory.category) {
-				trafficListing += '<li data-message-id="'+ i +'">' + '<a href="#">' +  locationByCategory.title + '</a>' + '</li>';
 				TrafficInfo.map.setMarker(locationByCategory);
+				var index = TrafficInfo.map.markers.length - 1;
+				trafficListing += '<li data-message-id="'+ index +'">' + '<a href="#">' +  locationByCategory.title + '</a>' + '</li>';
 			}
 		}
 		$('#trafficListing').html(trafficListing);
 	}
+
 
 }
 window.onload = TrafficInfo.init;
