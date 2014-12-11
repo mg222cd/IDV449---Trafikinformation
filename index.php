@@ -44,7 +44,7 @@
 <!-- Application scripts -->
 <script src='//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=<?= $api_key ?>&sensor=false"></script>
-<script src='Script.js'></script>
+<script src='Message.js'></script>
 <script src='Map.js'></script>
 </body>
 </html>

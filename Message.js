@@ -14,6 +14,7 @@ var TrafficInfo = {
 		TrafficInfo.map = new Map(62.00, 15.00);
 		TrafficInfo.categoryBinding();
 		TrafficInfo.getAllMessages();
+		TrafficInfo.messageBinding();
 	},
 
 	categoryBinding: function() {
@@ -23,6 +24,14 @@ var TrafficInfo = {
 			that.categoryType = parseInt($(this).data("category-type"));
 			that.renderCategoryTypeToList();
 		});
+	},
+
+	messageBinding: function() {
+		var that = this;
+		$("#trafficListing").on("click", "li", function(){
+			var msgId = parseInt($(this).data('message-id'));
+   			google.maps.event.trigger(that.locations[msgId].marker, 'click');
+	  	});
 	},
 
 	getAllMessages: function() {
@@ -55,7 +64,7 @@ var TrafficInfo = {
 		for(var i = 0; i < this.locations.length; i++) {
 			var locationByCategory = this.locations[i];			
 			if(this.categoryType === 4 || this.categoryType === locationByCategory.category) {
-				trafficListing += "<li>" +  locationByCategory.title + "</li>";
+				trafficListing += '<li data-message-id="'+ i +'">' + '<a href="#">' +  locationByCategory.title + '</a>' + '</li>';
 				TrafficInfo.map.setMarker(locationByCategory);
 			}
 		}
