@@ -1,8 +1,5 @@
 <?php
-    //require_once("Cache.php");
     $api_key = file_get_contents('api_key.txt');
-    //$cacheController = new CacheController();
-    //$cacheController->handleCache();
 ?>
 <!DOCTYPE html>
 <html>
