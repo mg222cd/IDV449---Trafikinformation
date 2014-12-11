@@ -1,29 +1,101 @@
 {
-    "timestamp": "2014\/12\/11 12:33:54",
+    "timestamp": "2014\/12\/11 13:00:58",
     "messages": [
         {
-            "id": 1309017,
+            "id": 1309045,
             "priority": 3,
-            "createddate": "\/Date(1418297365523+0100)\/",
-            "title": "G\u00f6teborg",
-            "exactlocation": "Masthugget",
-            "description": "Str\u00f6mavbrott som ber\u00f6r ca 110 kunder. Prognos klartid 13:00.",
-            "latitude": 57.6593246076,
-            "longitude": 11.7663067006,
-            "category": 3,
-            "subcategory": "El"
+            "createddate": "\/Date(1418299155037+0100)\/",
+            "title": "E16 Falun-Borl\u00e4nge",
+            "exactlocation": "F\u00f6re Tallen, mot Borl\u00e4nge",
+            "description": "Singelolycka.",
+            "latitude": 60.5852950784,
+            "longitude": 15.6153167443,
+            "category": 0,
+            "subcategory": "Trafikolycka"
         },
         {
             "id": 1309009,
             "priority": 3,
-            "createddate": "\/Date(1418297013133+0100)\/",
+            "createddate": "\/Date(1418299074753+0100)\/",
             "title": "E22 M\u00f6nster\u00e5s",
             "exactlocation": "Vid trafikljusen vid den norra infarten, s\u00f6derg\u00e5ende riktning",
-            "description": "Avst\u00e4ngt s\u00f6derg\u00e5ende en timme fram\u00f6ver, fram till cirka kl. 13:15. Tv\u00e5 personbilar inblandade i olycka. V\u00e4lj om m\u00f6jligt annan v\u00e4g. ",
+            "description": "Trafiken flyter igen. Tv\u00e5 personbilar inblandade i olycka. ",
             "latitude": 57.0507991441,
             "longitude": 16.4397374515,
             "category": 0,
             "subcategory": "Trafikolycka"
+        },
+        {
+            "id": 1309032,
+            "priority": 3,
+            "createddate": "\/Date(1418298422520+0100)\/",
+            "title": "E6 Landskrona",
+            "exactlocation": "Tpl Landskrona S (25)\u2013Landskrona N (26) i riktning mot Helsingborg",
+            "description": "Begr\u00e4nsad framkomlighet.",
+            "latitude": 55.8842641805,
+            "longitude": 12.8767143454,
+            "category": 0,
+            "subcategory": "Trafikolycka"
+        },
+        {
+            "id": 1309028,
+            "priority": 3,
+            "createddate": "\/Date(1418298179943+0100)\/",
+            "title": "Lv 364 Burtr\u00e4sk-Bodbyn",
+            "exactlocation": "Burtr\u00e4skv\u00e4gen",
+            "description": "En lastbil har k\u00f6rt av av v\u00e4gen. Ligger helt i diket. Oklart n\u00e4r b\u00e4rgningen sker med d\u00e5 blir det begr\u00e4nsad framkomlighet och\/eller avst\u00e4ngt.",
+            "latitude": 64.4896011353,
+            "longitude": 20.6988658905,
+            "category": 0,
+            "subcategory": "Trafikst\u00f6rning"
+        },
+        {
+            "id": 1309024,
+            "priority": 3,
+            "createddate": "\/Date(1418297952090+0100)\/",
+            "title": "E20 Mariefred-Nykvarn",
+            "exactlocation": "Mellan tpl L\u00e4ggesta och Nykvarn",
+            "description": "Kantstolpsarbeten mellan k\u00f6rf\u00e4lten",
+            "latitude": 59.2234802246,
+            "longitude": 17.2614612579,
+            "category": 0,
+            "subcategory": "V\u00e4garbete"
+        },
+        {
+            "id": 1309024,
+            "priority": 3,
+            "createddate": "\/Date(1418297952090+0100)\/",
+            "title": "E20 Mariefred-Nykvarn",
+            "exactlocation": "Mellan tpl L\u00e4ggesta och Nykvarn",
+            "description": "Kantstolpsarbeten mellan k\u00f6rf\u00e4lten",
+            "latitude": 59.2234802246,
+            "longitude": 17.2614612579,
+            "category": 0,
+            "subcategory": "V\u00e4garbete"
+        },
+        {
+            "id": 1294238,
+            "priority": 3,
+            "createddate": "\/Date(1418297827417+0100)\/",
+            "title": "E6.21 vid Lundbytunneln riktning mot Eriksbergsmotet i V\u00e4stra G\u00f6talands l\u00e4n (O)",
+            "exactlocation": "",
+            "description": "11\/12 kl 20:00-05:00  \u00d6sterg\u00e5ende tunnelr\u00f6r i Lundbytunneln avst\u00e4ngt f\u00f6r trafik p\u00e5 grund av underh\u00e5llsarbeten\n",
+            "latitude": 57.7080345154,
+            "longitude": 11.8918476105,
+            "category": 2,
+            "subcategory": "V\u00e4garbete"
+        },
+        {
+            "id": 1309023,
+            "priority": 3,
+            "createddate": "\/Date(1418297784487+0100)\/",
+            "title": "Alvesta-Kalmar",
+            "exactlocation": "",
+            "description": "Stopp i t\u00e5gtrafiken mellan Alvesta och Kalmar pga ett stillast\u00e5ende t\u00e5g med tekniska problem i V\u00e4xj\u00f6. Ingen prognos i nul\u00e4get. ",
+            "latitude": 56.8145490682,
+            "longitude": 15.242884269,
+            "category": 1,
+            "subcategory": "T\u00e5g"
         },
         {
             "id": 1308037,
@@ -96,18 +168,6 @@
             "longitude": 21.38291,
             "category": 0,
             "subcategory": "Halkvarning"
-        },
-        {
-            "id": 1309008,
-            "priority": 3,
-            "createddate": "\/Date(1418295873520+0100)\/",
-            "title": "Lv 364 Burtr\u00e4sk-Bodbyn",
-            "exactlocation": "Burtr\u00e4skv\u00e4gen",
-            "description": "",
-            "latitude": 64.4903374585,
-            "longitude": 20.6965286733,
-            "category": 0,
-            "subcategory": "Trafikolycka"
         },
         {
             "id": 1308757,
@@ -470,18 +530,6 @@
             "subcategory": "F\u00e4rja"
         },
         {
-            "id": 1304354,
-            "priority": 3,
-            "createddate": "\/Date(1418273170183+0100)\/",
-            "title": "Vilhelmina",
-            "exactlocation": "",
-            "description": "Blodbussen st\u00e5r vid Vilhelminas h\u00e4lsocentral torsdag 11\/12 mellan kl. 8:30-12:00.",
-            "latitude": 63.7636583792,
-            "longitude": 20.4439970516,
-            "category": 3,
-            "subcategory": "H\u00e4lsa och sjukv\u00e5rd"
-        },
-        {
             "id": 1293323,
             "priority": 4,
             "createddate": "\/Date(1418273120123+0100)\/",
@@ -552,18 +600,6 @@
             "longitude": 13.230521566,
             "category": 3,
             "subcategory": "V\u00e4der"
-        },
-        {
-            "id": 1308423,
-            "priority": 3,
-            "createddate": "\/Date(1418227667097+0100)\/",
-            "title": "Sjuh\u00e4radsomr\u00e5det",
-            "exactlocation": "",
-            "description": "Lokal ishalka p\u00e5 b\u00e5de stora och sm\u00e5 v\u00e4gar. ",
-            "latitude": 57.9629863617,
-            "longitude": 13.023377574,
-            "category": 0,
-            "subcategory": "Halkvarning"
         },
         {
             "id": 1308385,
@@ -998,18 +1034,6 @@
             "subcategory": "V\u00e4garbete"
         },
         {
-            "id": 1302787,
-            "priority": 3,
-            "createddate": "\/Date(1417507155833+0100)\/",
-            "title": "Rv 52 Katrineholm mot Nyk\u00f6ping ",
-            "exactlocation": "Kerstinboda",
-            "description": "Bel\u00e4ggningsarbete",
-            "latitude": 58.9954681396,
-            "longitude": 16.1881046295,
-            "category": 0,
-            "subcategory": "V\u00e4garbete"
-        },
-        {
             "id": 1266974,
             "priority": 3,
             "createddate": "\/Date(1417440190740+0100)\/",
@@ -1174,30 +1198,6 @@
             "description": "Broreperation.",
             "latitude": 57.7261619568,
             "longitude": 12.023475647,
-            "category": 0,
-            "subcategory": "V\u00e4garbete"
-        },
-        {
-            "id": 1296320,
-            "priority": 4,
-            "createddate": "\/Date(1416579748090+0100)\/",
-            "title": "Ljungskile",
-            "exactlocation": "H\u00e4lle och Lyckorna",
-            "description": "Renspolning av vattenledningarna sker 24 nov\u201312 dec. Vattnet st\u00e4ngs av vid olika tider och ber\u00f6rda hush\u00e5ll meddelas per post tv\u00e5 dagar innan.  Inga kemikalier anv\u00e4nds och vattnet \u00e4r ofarligt.",
-            "latitude": 58.2157237156,
-            "longitude": 11.907643089,
-            "category": 3,
-            "subcategory": "Vatten"
-        },
-        {
-            "id": 1293594,
-            "priority": 3,
-            "createddate": "\/Date(1416499549720+0100)\/",
-            "title": "Lv 845 Bor",
-            "exactlocation": "Bron \u00f6ver B\u00e5rs\u00e5n",
-            "description": "Broarbete.",
-            "latitude": 59.5592536926,
-            "longitude": 15.2869358063,
             "category": 0,
             "subcategory": "V\u00e4garbete"
         }

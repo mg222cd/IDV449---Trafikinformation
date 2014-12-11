@@ -5,15 +5,11 @@ var TrafficInfo = {
 	categoryType : 4,
 	locations : [],
 	allCategories : [],
-	roadTraffic : [],
-	publicTransport : [],
-	plannedDisruption : [],
-	otherCategories : [],
 
 	init: function() {
 		TrafficInfo.map = new Map(62.00, 15.00);
-		TrafficInfo.categoryBinding();
 		TrafficInfo.getAllMessages();
+		TrafficInfo.categoryBinding();
 		TrafficInfo.messageBinding();
 	},
 
@@ -70,7 +66,6 @@ var TrafficInfo = {
 		}
 		$('#trafficListing').html(trafficListing);
 	}
-
 
 }
 window.onload = TrafficInfo.init;
